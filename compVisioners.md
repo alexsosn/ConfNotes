@@ -22,7 +22,7 @@ What are the modest neural network architectures for binary, multiclass and inst
 
 [Paper](https://arxiv.org/pdf/1705.08790)
 
-![](./CompVisioners/Screen Shot 2018-10-06 at 10.17.51.png)
+![](CompVisioners/Screen Shot 2018-10-06 at 10.17.51.png)
 
 - encoder-decoder architecture + shortcut connections
 - binary segmentation
