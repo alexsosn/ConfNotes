@@ -3,6 +3,8 @@ October 6, 2018, Kiiv
 
 https://www.aibooster.com.ua/cv2018/
 
+[Presentations](https://drive.google.com/drive/folders/18CDDCUYyMNXzWW5kEgG0tkEOoHrggO-B)
+
 ## Image Segmentation: From space to cells with stop at the showroom
 
 ### by Eugene Khvedchenya
@@ -22,7 +24,7 @@ What are the modest neural network architectures for binary, multiclass and inst
 
 [Paper](https://arxiv.org/pdf/1705.08790)
 
-![](CompVisioners/Screen Shot 2018-10-06 at 10.17.51.png)
+![](CompVisioners/unet.png)
 
 - encoder-decoder architecture + shortcut connections
 - binary segmentation
@@ -36,8 +38,8 @@ What are the modest neural network architectures for binary, multiclass and inst
 
 [Paper](https://arxiv.org/pdf/1707.03718.pdf)
 
-![](CompVisioners/Screen Shot 2018-10-06 at 10.18.13.png)
-![](CompVisioners/Screen Shot 2018-10-06 at 10.18.18.png)
+![](CompVisioners/LinkNet1.png)
+![](CompVisioners/LinkNet2.png)
 
 - encoder-decoder architecture + shortcut connections
 - small GPU footprint
@@ -47,7 +49,7 @@ What are the modest neural network architectures for binary, multiclass and inst
 
 [Paper](https://arxiv.org/pdf/1612.01105.pdf)
 
-![](CompVisioners/Screen Shot 2018-10-06 at 10.19.31.png)
+![](CompVisioners/PSPNet.png)
 
 - Pyramid pooling instead of decoder
 - Long to train
@@ -58,7 +60,7 @@ What are the modest neural network architectures for binary, multiclass and inst
 
 [Paper](https://arxiv.org/pdf/1706.05587.pdf)
 
-![](CompVisioners/Screen Shot 2018-10-06 at 10.19.52.png)
+![](CompVisioners/DeepLab.png)
 
 
 ### Trends 2018
@@ -66,7 +68,7 @@ What are the modest neural network architectures for binary, multiclass and inst
 - Dilated convolutions
 - Attention: https://openreview.net/pdf?id=Skft7cijM
 - Squeeze & Excitation: https://arxiv.org/pdf/1709.01507
-![](CompVisioners/Screen Shot 2018-10-06 at 10.29.09.png)
+![](CompVisioners/Squeeze.png)
 
 - Depthwise separable conv: https://arxiv.org/pdf/1610.02357.pdf
 - Object context: [Paper](https://arxiv.org/pdf/1809.00916)
@@ -243,7 +245,7 @@ https://www.continualai.org
 Problem:
 - catastrofic forgetting
 
-![](CompVisioners/Screen Shot 2018-10-06 at 13.18.34.png)
+![](CompVisioners/CL.png)
 
 Rehersal: store data in external memory
 
